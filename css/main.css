@@ -25,21 +25,21 @@ body {
 
 /***** HEADER *****/
 header {
-  height: 1000px;
-  background: url('../img/hero.png');
+  height: 800px;
+  background: url('../img/test-img.jpg');
   background-size: cover;
 }
 
 header h1 {
   font-family: 'Lora', serif;
   font-size: 30px;
-  color: #bbc085;
+  color: #f8eae5;
   padding: 65px 0 65px 25px;
 }
 
 nav {
   float: right;
-  padding: 75px 25px;
+  padding: 75px 0 75px 10px;
 }
 
 nav ul li {
@@ -50,8 +50,9 @@ nav ul li a {
   text-transform:uppercase;
   text-decoration: none;
   font-size: 18px;
-  color: #828282;
-  padding-left: 80px;
+  font-weight: bold;
+  color: #f8eae5;
+  padding-left: 20px;
 }
 
 header h2 {
@@ -60,7 +61,7 @@ header h2 {
   font-family: 'Lora', serif;
   font-size: 72px;
   line-height: 80px;
-  color: #9b9b9b;
+  color: #F1D6CB;
   padding: 20px 0 20px 25px;
 }
 
@@ -88,7 +89,7 @@ header h2 span {
 
 /***** WORK *****/
 #work {
-  background: #F9CEB7;
+  background: #e3ad97;
   text-align: center;
 }
 
@@ -116,7 +117,7 @@ header h2 span {
 
 /***** CONTACT *****/
 #contact {
-  background: #ebebeb;
+  background: #f8eae5;
 }
 
 #contact .full-width {
